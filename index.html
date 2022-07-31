@@ -13,6 +13,13 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </head>
 <body class="w3-light-grey">
 
+
+<input type="file" id="fileUpload" />
+<input type="button" id="upload" value="Upload" onclick="Upload()" />
+<hr />
+<div id="dvCSV">
+</div>
+
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
   <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
@@ -38,7 +45,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   </div>
   <div class="w3-bar-block">
     <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Baseball Batters</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Baseball Batters</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Baseball Pitchers</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Basketball Categories</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Basketball Points</a>
@@ -102,22 +109,18 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <div class="w3-panel">
     <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-third">
-        <h5>Regions</h5>
-        <img src="/w3images/region.jpg" style="width:100%" alt="Google Regional Map">
-      </div>
       <div class="w3-twothird">
-        <h5>Feeds</h5>
+        <h5>Player Data</h5>
         <table class="w3-table w3-striped w3-white">
           <tr>
             <td><i class="fa fa-user w3-text-blue w3-large"></i></td>
-            <td>New record, over 90 views.</td>
-            <td><i>10 mins</i></td>
+            <td>Player data will go here</td>
+            <td><i>Test</i></td>
           </tr>
           <tr>
             <td><i class="fa fa-bell w3-text-red w3-large"></i></td>
-            <td>Database error.</td>
-            <td><i>15 mins</i></td>
+            <td>Once I learn how to upload a CSV to this</td>
+            <td><i>Test2</i></td>
           </tr>
           <tr>
             <td><i class="fa fa-users w3-text-yellow w3-large"></i></td>
